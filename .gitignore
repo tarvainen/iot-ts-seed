@@ -1,0 +1,8 @@
+# Build directory
+dist
+
+# Editor files
+.idea
+
+# Node files
+node_modules

@@ -1,0 +1,21 @@
+{
+  "name": "iot-ts-seed",
+  "version": "1.0.0",
+  "description": "The IOT project seed to be written in TypeScript using the Johnny-Five JS-IOT framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e ts --exec \"npm run build:live\"",
+    "build:live": "npm run build && node dist/index.js",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "keywords": [],
+  "author": "Atte Tarvainen",
+  "license": "WTFPL",
+  "dependencies": {
+    "@types/johnny-five": "0.0.31",
+    "johnny-five": "0.10.6",
+    "tsc": "1.20150623.0",
+    "typescript": "2.1.5"
+  }
+}
