@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "Atte Tarvainen",
-  "license": "WTFPL",
+  "license": "MIT",
   "dependencies": {
     "@types/johnny-five": "0.0.31",
     "johnny-five": "0.10.6",
